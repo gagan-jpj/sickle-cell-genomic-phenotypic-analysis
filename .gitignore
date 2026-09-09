@@ -1,0 +1,41 @@
+# ==== Data files: never commit AoU-derived or participant-level data ====
+*.csv
+*.tsv
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.vcf.bgz.tbi
+*.bcf
+*.bed
+*.bim
+*.fam
+*.txt
+!requirements.txt
+data/
+outputs/
+results/raw/
+lab_histograms/
+median_lab_histograms/
+
+# ==== Credentials / cloud config ====
+*.json
+!requirements.json
+.env
+*.pem
+*.key
+service-account*.json
+.config/gcloud/
+
+# ==== Jupyter / Python ====
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.DS_Store
+
+# ==== OS / editor ====
+.vscode/
+.idea/
+*.swp
