@@ -1,0 +1,18 @@
+pandas
+numpy
+scipy
+scikit-learn
+umap-learn
+gower
+pyclustering
+seaborn
+matplotlib
+
+# Genomics / All of Us Researcher Workbench environment
+hail
+google-cloud-bigquery
+pandas-gbq
+
+# Notebook execution
+jupyter
+notebook
